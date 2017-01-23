@@ -1,0 +1,44 @@
+{
+  "videos": [{
+    "urls": ["https://d0playscdntv-a.akamaihd.net/video/Gc58bifZMAD/processed/720.mp4"],
+    "hostedBy": "Plays.tv",
+    "original": "https://plays.tv/video/5873c0577f6cf759f8/adc-in-2k17-lul",
+    "die": 29
+  }, {
+    "urls": ["https://clips-media-assets.twitch.tv/24087849440-offset-7250-28.mp4"],
+    "hostedBy": "Twitch.tv",
+    "original": "https://clips.twitch.tv/akadellzor/SuccessfulGoldfishFailFish",
+    "die": 4,
+    "end": 15
+  },
+  {
+    "urls": ["https://clips-media-assets.twitch.tv/24153227552-offset-28521-35-1280x720.mp4"],
+    "hostedBy": "Twitch.tv",
+    "original": "https://clips.twitch.tv/imaqtpie/LongLapwingFreakinStinkin",
+    "die": 19.5,
+    "end": 24,
+    "start": 5
+  },
+  {
+    "urls": ["https://clips-media-assets.twitch.tv/24178744032-offset-15100-1280x720.mp4"],
+    "hostedBy": "Twitch.tv",
+    "original": "https://clips.twitch.tv/overpow/WittyCarabeefSmoocherZ",
+    "start": 8,
+    "die": 18,
+    "end": 20
+  },
+  {
+    "urls": ["https://clips-media-assets.twitch.tv/24123173248-offset-20859-29-1280x720.mp4"],
+    "hostedBy": "Twitch.tv",
+    "original": "https://clips.twitch.tv/imaqtpie/PricklyManateeDogFace",
+    "start": 8,
+    "die": 22,
+    "end": 26
+  },
+  {
+    "urls": ["https://clips-media-assets.twitch.tv/24189121792-offset-15066-10-1280x720.mp4"],
+    "hostedBy": "Twitch.tv",
+    "original": "https://clips.twitch.tv/imaqtpie/PricklyManateeDogFace",
+    "die": 2.6
+  }]
+}

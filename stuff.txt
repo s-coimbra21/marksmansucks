@@ -1,0 +1,111 @@
+@font-face {
+  font-family: 'Spiegel';
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://lolstatic-a.akamaihd.net/awesomefonts/1.0.0/Fonts/Spiegel-Regular.svg") format("svg"), url("https://lolstatic-a.akamaihd.net/awesomefonts/1.0.0/Fonts/Spiegel-Regular.ttf") format("truetype")
+}
+
+@font-face {
+  font-family: 'Spiegel';
+  font-style: italic;
+  font-weight: 400;
+  src: url("https://lolstatic-a.akamaihd.net/awesomefonts/1.0.0/Fonts/Spiegel-RegularItalic.svg") format("svg"), url("https://lolstatic-a.akamaihd.net/awesomefonts/1.0.0/Fonts/Spiegel-RegularItalic.ttf") format("truetype")
+}
+
+@font-face {
+  font-family: 'Spiegel';
+  font-style: normal;
+  font-weight: 500;
+  src: url("https://lolstatic-a.akamaihd.net/awesomefonts/1.0.0/Fonts/Spiegel-SemiBold.svg") format("svg"), url("https://lolstatic-a.akamaihd.net/awesomefonts/1.0.0/Fonts/Spiegel-SemiBold.ttf") format("truetype")
+}
+
+@font-face {
+  font-family: 'Spiegel';
+  font-style: italic;
+  font-weight: 500;
+  src: url("https://lolstatic-a.akamaihd.net/awesomefonts/1.0.0/Fonts/Spiegel-SemiBoldItalic.svg") format("svg"), url("https://lolstatic-a.akamaihd.net/awesomefonts/1.0.0/Fonts/Spiegel-SemiBoldItalic.ttf") format("truetype")
+}
+
+@font-face {
+  font-family: 'Spiegel';
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://lolstatic-a.akamaihd.net/awesomefonts/1.0.0/Fonts/Spiegel-Bold.svg") format("svg"), url("https://lolstatic-a.akamaihd.net/awesomefonts/1.0.0/Fonts/Spiegel-Bold.ttf") format("truetype")
+}
+
+@font-face {
+  font-family: 'Spiegel';
+  font-style: italic;
+  font-weight: 700;
+  src: url("https://lolstatic-a.akamaihd.net/awesomefonts/1.0.0/Fonts/Spiegel-BoldItalic.svg") format("svg"), url("https://lolstatic-a.akamaihd.net/awesomefonts/1.0.0/Fonts/Spiegel-BoldItalic.ttf") format("truetype")
+}
+
+@font-face {
+  font-family: 'Beaufort';
+  font-style: normal;
+  font-weight: 300;
+  src: url("https://lolstatic-a.akamaihd.net/awesomefonts/1.0.0/Fonts/BeaufortforLOL-Light.svg") format("svg"), url("https://lolstatic-a.akamaihd.net/awesomefonts/1.0.0/Fonts/BeaufortforLOL-Light.ttf") format("truetype")
+}
+
+@font-face {
+  font-family: 'Beaufort';
+  font-style: italic;
+  font-weight: 300;
+  src: url("https://lolstatic-a.akamaihd.net/awesomefonts/1.0.0/Fonts/BeaufortforLOL-LightItalic.svg") format("svg"), url("https://lolstatic-a.akamaihd.net/awesomefonts/1.0.0/Fonts/BeaufortforLOL-LightItalic.ttf") format("truetype")
+}
+
+@font-face {
+  font-family: 'Beaufort';
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://lolstatic-a.akamaihd.net/awesomefonts/1.0.0/Fonts/BeaufortforLOL-Regular.svg") format("svg"), url("https://lolstatic-a.akamaihd.net/awesomefonts/1.0.0/Fonts/BeaufortforLOL-Regular.ttf") format("truetype")
+}
+
+@font-face {
+  font-family: 'Beaufort';
+  font-style: italic;
+  font-weight: 400;
+  src: url("https://lolstatic-a.akamaihd.net/awesomefonts/1.0.0/Fonts/BeaufortforLOL-RegularItalic.svg") format("svg"), url("https://lolstatic-a.akamaihd.net/awesomefonts/1.0.0/Fonts/BeaufortforLOL-RegularItalic.ttf") format("truetype")
+}
+
+@font-face {
+  font-family: 'Beaufort';
+  font-style: normal;
+  font-weight: 500;
+  src: url("https://lolstatic-a.akamaihd.net/awesomefonts/1.0.0/Fonts/BeaufortforLOL-Medium.svg") format("svg"), url("https://lolstatic-a.akamaihd.net/awesomefonts/1.0.0/Fonts/BeaufortforLOL-Medium.ttf") format("truetype")
+}
+
+@font-face {
+  font-family: 'Beaufort';
+  font-style: italic;
+  font-weight: 500;
+  src: url("https://lolstatic-a.akamaihd.net/awesomefonts/1.0.0/Fonts/BeaufortforLOL-MediumItalic.svg") format("svg"), url("https://lolstatic-a.akamaihd.net/awesomefonts/1.0.0/Fonts/BeaufortforLOL-MediumItalic.ttf") format("truetype")
+}
+
+@font-face {
+  font-family: 'Beaufort';
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://lolstatic-a.akamaihd.net/awesomefonts/1.0.0/Fonts/BeaufortforLOL-Bold.svg") format("svg"), url("https://lolstatic-a.akamaihd.net/awesomefonts/1.0.0/Fonts/BeaufortforLOL-Bold.ttf") format("truetype")
+}
+
+@font-face {
+  font-family: 'Beaufort';
+  font-style: italic;
+  font-weight: 700;
+  src: url("https://lolstatic-a.akamaihd.net/awesomefonts/1.0.0/Fonts/BeaufortforLOL-BoldItalic.svg") format("svg"), url("https://lolstatic-a.akamaihd.net/awesomefonts/1.0.0/Fonts/BeaufortforLOL-BoldItalic.ttf") format("truetype")
+}
+
+@font-face {
+  font-family: 'Beaufort';
+  font-style: normal;
+  font-weight: 800;
+  src: url("https://lolstatic-a.akamaihd.net/awesomefonts/1.0.0/Fonts/BeaufortforLOL-Heavy.svg") format("svg"), url("https://lolstatic-a.akamaihd.net/awesomefonts/1.0.0/Fonts/BeaufortforLOL-Heavy.ttf") format("truetype")
+}
+
+@font-face {
+  font-family: 'Beaufort';
+  font-style: italic;
+  font-weight: 800;
+  src: url("https://lolstatic-a.akamaihd.net/awesomefonts/1.0.0/Fonts/BeaufortforLOL-HeavyItalic.svg") format("svg"), url("https://lolstatic-a.akamaihd.net/awesomefonts/1.0.0/Fonts/BeaufortforLOL-HeavyItalic.ttf") format("truetype")
+}

@@ -1,0 +1,57 @@
+.sidebar {
+  width: 194px;
+  margin-right: 35px;
+  display: flex;
+  flex-direction: column;
+
+  .summary {
+    flex: 0 0 186px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: url('./ring.png');
+		background-size: cover;
+    background-repeat: no-repeat;
+		font-family: 'LoL Display';
+		cursor: default;
+
+    .count {
+      margin-top: 25%;
+      flex: 0 0 40px;
+  //    background: linear-gradient(to bottom, #f0e6d2 0%, #c8aa6e 35%, #765c29 100%);
+  //    -webkit-background-clip: text;
+  //    -webkit-text-fill-color: transparent;
+      color: #c8aa6e;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 42px;
+      letter-spacing: 0.05em;
+    }
+
+    .text {
+      flex: 0 1 auto;
+      margin: 20px auto;
+      width: 100px;
+      color: #a09b8c;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 16px;
+      letter-spacing: 0.075em;
+      text-transform: uppercase;
+    }
+  }
+
+	.filters {
+		margin-top: 20px;
+
+		& > div {
+			margin-bottom: 20px;
+		}
+	}
+}
+
+@media (max-width: 959px) {
+  .sidebar {
+    margin-right: 0;
+  }
+}

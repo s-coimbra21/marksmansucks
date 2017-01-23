@@ -1,0 +1,39 @@
+.clipInfo {
+  z-index: 5;
+  position: absolute;
+  left: 35px;
+  top: 15px;
+  font-size: 16px;
+
+  &:after {
+    content: "";
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 20px;
+    margin: 0;
+    background: linear-gradient(to left, transparent, #cdbe91, transparent);
+  }
+
+  a {
+    color: #CDBE91;
+    text-shadow:
+ -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+   1px 1px 0 #000;
+    text-decoration: none;
+    &:hover {
+      color: lighten(#cdbe91, 10%);
+    }
+  }
+}
+
+@media (max-width: 959px) {
+  .clipInfo {
+    left: 10px;
+    top: 10px;
+    font-size: 12px;
+  }
+}

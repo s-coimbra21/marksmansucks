@@ -1,0 +1,52 @@
+.content {
+  position: absolute;
+  width: 405px;
+  left: 35px;
+  top: 30%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  transition: left 0.5s ease-in;
+
+  & > div {
+    z-index: 1;
+  }
+
+  .title {
+    font-family: 'LoL Display Bold', TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif;
+    color: #f0e6d2;
+    font-size: 4em;
+    font-weight: 700;
+    line-height: 1em;
+    letter-spacing: 0.05em;
+    margin: 0 0 0.5em;
+    text-transform: uppercase;
+  }
+
+  .description {
+    width: 322px;
+    white-space: pre-line;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    color: #a09b8c;
+    font-size: 1.7em;
+    font-weight: normal;
+    font-family: 'LoL Body', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 20px;
+    letter-spacing: 0.025em;
+  }
+
+  .buttonWrapper {
+    margin-top: 1.8em;
+  }
+}
+
+@media (max-width: 959px) {
+  .content {
+    margin-top: 25px;
+    position: static;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+  }
+}

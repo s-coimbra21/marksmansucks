@@ -1,0 +1,71 @@
+{
+  "name": "marksmansucks",
+  "version": "1.0.0",
+  "description": "a stupid website",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf ./dist/* ./build/*",
+    "server": "cross-env NODE_ENV=production node -r babel-register ./node_modules/webpack/bin/webpack --config webpack.config.server.js --progress --profile --colors",
+    "build": "npm run clean && npm run server && npm run template && cross-env NODE_ENV=production node -r babel-register ./node_modules/webpack/bin/webpack --config webpack.config.prod.js --progress --profile --colors",
+    "dev": "node -r babel-register ./dev.js",
+    "template": "node -r babel-register ./make-template.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s-coimbra21/marksmansucks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/s-coimbra21/marksmansucks/issues"
+  },
+  "homepage": "https://github.com/s-coimbra21/marksmansucks#readme",
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.2.10",
+    "babel-plugin-transform-react-jsx": "^6.8.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "babel-register": "^6.18.0",
+    "clean-webpack-plugin": "^0.1.15",
+    "copy-webpack-plugin": "^4.0.1",
+    "cross-env": "^3.1.4",
+    "css-loader": "^0.26.1",
+    "css-modules-require-hook": "^4.0.5",
+    "ejs": "^2.5.5",
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-react": "^6.8.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "html-loader": "^0.4.4",
+    "html-webpack-plugin": "^2.26.0",
+    "node-sass": "^4.1.1",
+    "postcss-loader": "^1.2.1",
+    "preact-render-to-string": "^3.3.0",
+    "resource-hints-webpack-plugin": "^0.0.1",
+    "sass-loader": "^4.1.1",
+    "script-ext-html-webpack-plugin": "^1.4.0",
+    "string-replace-loader": "^1.0.5",
+    "style-ext-html-webpack-plugin": "^3.0.8",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.14.0",
+    "webpack-node-externals": "^1.5.4",
+    "write-file-webpack-plugin": "^3.4.2"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "ignore-loader": "^0.1.2",
+    "json2mq": "^0.2.0",
+    "lodash.debounce": "^4.0.8",
+    "preact": "^7.1.0",
+    "promise-polyfill": "6.0.2",
+    "webpack-dev-server": "^1.16.2",
+    "whatwg-fetch": "^2.0.1"
+  }
+}
