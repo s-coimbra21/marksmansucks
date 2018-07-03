@@ -21,7 +21,7 @@ module.exports = {
   output: {
     path: path.join(__dirname, 'docs'),
     filename: '[name].js',
-    publicPath: '/marksmansucks'
+    publicPath: '/marksmansucks/'
   },
   module: {
     preLoaders: [

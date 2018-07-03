@@ -165,7 +165,7 @@ export default class Player extends Component {
       <div class={style.overlay} />
       <div class={style.youDied}>
         <div class={style.bg} />
-        <img role="presentation" src="https://cdn.marksmansucks.lol/you-died.png" />
+        <img role="presentation" src="/cdn/you-died.png" />
       </div>
       {children}
     </div>
