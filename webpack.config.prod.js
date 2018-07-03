@@ -19,14 +19,26 @@ module.exports = {
     root: [path.resolve(__dirname, 'app')]
   },
   output: {
-    path: path.join(__dirname, 'dist'),
-    filename: '[name].js'
+    path: path.join(__dirname, 'docs'),
+    filename: '[name].js',
+    publicPath: '/marksmansucks'
   },
   module: {
+    preLoaders: [
+      {
+        test: /\.(jsx?|s?css)$/,
+        loader: 'string-replace',
+        query: {
+          search: 'https://cdn.marksmansucks.lol/',
+          replace: '/cdn/',
+          flags: 'g'
+        }
+      }
+    ],
     loaders: [
       {
         test: /\.jsx?$/,
-        loaders: ['babel-loader'],
+        loaders: ['babel-loader', 'string-replace?{"search":"https://cdn.marksmansucks.lol/","replace":"/cdn/","flags":"g"}'],
         exclude: /node_modules/
       }, {
         test: /\.entry\.scss$/,
