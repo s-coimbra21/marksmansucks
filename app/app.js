@@ -49,7 +49,7 @@ export default class App extends Component {
   }
 
   fetchVideos (idx) {
-    fetch(`/videos_${idx}.json`, {
+    fetch(`/marksmansucks/videos_${idx}.json`, {
       credentials: 'include'
     })
       .then(res => res.json())

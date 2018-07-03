@@ -30,7 +30,7 @@ module.exports = {
         loader: 'string-replace',
         query: {
           search: 'https://cdn.marksmansucks.lol/',
-          replace: '/cdn/',
+          replace: '/marksmansucks/cdn/',
           flags: 'g'
         }
       }
@@ -38,7 +38,7 @@ module.exports = {
     loaders: [
       {
         test: /\.jsx?$/,
-        loaders: ['babel-loader', 'string-replace?{"search":"https://cdn.marksmansucks.lol/","replace":"/cdn/","flags":"g"}'],
+        loaders: ['babel-loader', 'string-replace?{"search":"https://cdn.marksmansucks.lol/","replace":"/marksmansucks/cdn/","flags":"g"}'],
         exclude: /node_modules/
       }, {
         test: /\.entry\.scss$/,
